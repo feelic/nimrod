@@ -4,7 +4,7 @@
   "description": "Language generation and mutation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/index.js"
   },
   "keywords": [
     "Language",
@@ -15,5 +15,8 @@
   "license": "ISC",
   "devDependencies": {
     "eslint": "^2.12.0"
+  },
+  "dependencies": {
+    "js-beautify": "^1.6.3"
   }
 }
