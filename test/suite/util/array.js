@@ -1,5 +1,5 @@
 const assert = require('assert');
-const arrayIndexDiff = require('../../../lib/util/array-index-diff');
+const arrayIndexDiff = require('../../../lib/util/array').arrayIndexDiff;
 
 describe('#arrayIndexDiff(arr, a, b)', function () {
   it('should return the difference of position between to elements of an array', function () {
