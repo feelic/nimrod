@@ -8,6 +8,6 @@
     },
     "rules": {
         "semi": 2,
-        "quote-props": [2, "as-needed"]
+        "quote-props": [2, "always"]
     }
 }
