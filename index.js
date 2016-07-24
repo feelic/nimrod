@@ -1,9 +1,12 @@
-//const Language = require('./lib/language');
+const Language = require('./lib/language');
 const french = require('./languages/french');
 
-//let lang = new Language();
+let lang = new Language();
 
-for (let i = 0; i < 10; i += 1) {
-  // french.transliterate(french.makeSyllable() + french.makeSyllable());
-  console.log(french.transliterate(french.makeSyllable() + french.makeSyllable()));
-}
+//lang.printPhonologyDescription();
+let a = () => french.makeSyllable();
+let b = () => lang.makeSyllable();
+
+//console.log(french.transliterate(`${a()} ${a()}${a()} ${a()} ${a()}${a()}${a()}`));
+console.log(lang.transliterate(`${b()}${b()} ${b()} ${b()}${b()}${b()} ${b()}`));
+console.log(lang.transliterate(`${b()} ${b()}${b()} ${b()} ${b()}${b()}${b()}`));
