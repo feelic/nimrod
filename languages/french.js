@@ -3,17 +3,31 @@ const options = {
   'vowels': ['i', 'y', 'u', 'e', 'ø', 'ə', 'o', 'ɛ', 'œ', 'ɔ', 'ɛ̃', 'ɔ̃', 'ɑ̃', 'a', 'ɑ'],
   'consonants': ['m', 'n', 'ɲ', 'p', 't', 'k', 'b', 'd', 'g', 'f', 's', 'ʃ', 'v', 'z', 'ʒ', 'ʁ', 'l'],
   'syllableRules': {
+    'initial': {
+      'onset': {
+        'existence': () => true && Math.round(Math.random()),
+        'phonemes': [
+          'p', 't', 'k', 'b', 'd', 'g', 'f', 's', 'ʃ', 'v', 'z', 'ʒ', 'm', 'n', 'ʁ', 'l',
+          'pl', 'pʁ', 'bl', 'fl', 'fʁ', 'vl', 'vʁ', 'tʁ', 'dʁ', 'kl', 'kʁ', 'gl', 'gʁ', 'bʁ',
+          'nɥ', 'pɥ', 'lɥ', 'st', 'sk'
+        ]
+      },
+      'nucleus': {
+        'diphthong': () => false,
+        'phonemes': ['i', 'y', 'u', 'e', 'ø', 'ə', 'o', 'ɛ', 'œ', 'ɔ', 'ɛ̃', 'œ̃', 'ɔ̃', 'ɑ̃', 'a', 'ɑ']
+      },
+      'coda': {
+        'existence': () => true && Math.round(Math.random() * Math.random()),
+        'phonemes': ['m', 'n', 'p', 't', 'k', 'd', 'g', 'f', 's', 'ʃ', 'v', 'z', 'ʁ', 'l']
+      }
+    },
     'standard': {
       'onset': {
         'existence': () => true && Math.round(Math.random()),
         'phonemes': [
-          'm', 'n', 'ɲ', 'p', 't', 'k', 'b', 'd', 'g', 'f', 's', 'ʃ', 'v', 'z', 'ʒ', 'ʁ', 'l',
-          'pl', 'kl', 'bl', 'gl', 'fl', 'sl', 'ʃl',
-          'pʁ', 'kʁ', 'tʁ', 'bʁ', 'dʁ', 'gʁ', 'fʁ', 'vʁ',
-          'nɥ', 'pɥ', 'lɥ',
-          'pt',
-          'pn',
-          'ps'
+          'p', 't', 'k', 'b', 'd', 'g', 'f', 's', 'ʃ', 'v', 'z', 'ʒ', 'm', 'n', 'ʁ', 'l',
+          'pl', 'pʁ', 'bl', 'fl', 'fʁ', 'vl', 'vʁ', 'tʁ', 'dʁ', 'kl', 'kʁ', 'gl', 'gʁ', 'bʁ',
+          'nɥ', 'pɥ', 'lɥ', 'st', 'sk'
         ]
       },
       'nucleus': {
