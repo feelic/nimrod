@@ -4,8 +4,8 @@
   "description": "Language generation and mutation",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node sandbox",
-    "test": "jest src --watchAll --coverage"
+    "sandbox": "node sandbox/index.js",
+    "test": "istanbul cover node_modules/.bin/_mocha"
   },
   "keywords": [
     "Language",
@@ -15,13 +15,13 @@
   "author": "feelic",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/node": "^7.5.5",
-    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
-    "@babel/plugin-transform-runtime": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "babel-jest": "^24.8.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0",
+    "istanbul": "^0.4.4",
+    "mocha": "^6.1.4"
+  },
+  "dependencies": {
     "cli-table": "^0.3.1",
     "eslint": "^6.1.0",
     "eslint-config-airbnb-base": "^13.2.0",
