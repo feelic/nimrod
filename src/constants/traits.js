@@ -1,6 +1,6 @@
 module.exports = {
-  'consonants': {
-    'place': [
+  consonants: {
+    place: [
       'bilabial',
       'labiodental',
       'dental',
@@ -13,9 +13,9 @@ module.exports = {
       'velar',
       'uvular',
       'pharyngeal',
-      'glottal'
+      'glottal',
     ],
-    'manner': [
+    manner: [
       'plosive',
       'implosive',
       'nasal',
@@ -25,26 +25,14 @@ module.exports = {
       'fricative',
       'lateral-fricative',
       'approximant',
-      'lateral-approximant'
+      'lateral-approximant',
     ],
-    'voicing': [true, false]
+    voicing: [true, false],
   },
-  'vowels': {
-    'height': [
-      'close',
-      'near-close',
-      'close-mid',
-      'mid',
-      'open-mid',
-      'near-open',
-      'open'
-    ],
-    'backness': [
-      'front',
-      'central',
-      'back'
-    ],
-    'roundedness': [true, false],
-    'nasalization': [true, false]
-  }
+  vowels: {
+    height: ['close', 'near-close', 'close-mid', 'mid', 'open-mid', 'near-open', 'open'],
+    backness: ['front', 'central', 'back'],
+    roundedness: [true, false],
+    nasalization: [true, false],
+  },
 };

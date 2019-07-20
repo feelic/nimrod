@@ -1,5 +1,5 @@
 module.exports = {
-  bindInteger: (n, min, max) => {
+  bindNumber: (n, min, max) => {
     if (n > max) {
       return max;
     }
@@ -7,5 +7,5 @@ module.exports = {
       return min;
     }
     return n;
-  }
+  },
 };

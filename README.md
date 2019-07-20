@@ -52,19 +52,23 @@ A set of grammar rules will be defined to manipulate the words of the dictionary
 ## Mutations
 Once a language is created, an other language can be created from the first with random mutations on any layer.
 
+## TODO
+
+think about letter frequency http://pi.math.cornell.edu/~mec/2003-2004/cryptography/subs/frequencies.html
+
 ## Usage
 
 ### Generate a new language
 ```js
   const Language = require('nimrod').language;
-  
+
   const language = new Language();
 ```
 
 ### Mutate a language
 ```js
   const Language = require('nimrod').language;
-  
+
   const language = new Language();
   const mutatedLanguage = new Language({
     'mutateFrom': language
@@ -74,9 +78,9 @@ Once a language is created, an other language can be created from the first with
 ### Generate proper nouns
 ```js
   const Language = require('nimrod').language;
-  
+
   const language = new Language();
-  
+
   language.makeToponym({
     'type': 'mountain'
   });
