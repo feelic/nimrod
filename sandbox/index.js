@@ -4,6 +4,13 @@ const generateLanguage = require('../src/generate-language/index');
 const makeSyllable = require('../src/use-language/make-syllable');
 const transliterate = require('../src/use-language/transliterate');
 
+const { setSeed } = require('../src/util/random');
+
+const seed = process.argv[2] || 'coucou';
+
+console.log(`creating language with seed "${seed}"`);
+setSeed(seed);
+
 const conLang = generateLanguage();
 
 // console.log(JSON.stringify(conLang, null, 2));

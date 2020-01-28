@@ -1,3 +1,14 @@
+const seedrandom = require('seedrandom');
+
+let randomNumberGenerator = () => {
+  throw new Error('you must set a seed before running random');
+};
+const random = () => randomNumberGenerator();
+
+const setSeed = function setSeed(seed) {
+  randomNumberGenerator = seedrandom(seed);
+};
+
 // This function was found here http://stackoverflow.com/a/35599181
 const gaussian = function gaussian(mean, stdev, integer = true) {
   let y2;
@@ -15,8 +26,8 @@ const gaussian = function gaussian(mean, stdev, integer = true) {
       let w;
 
       do {
-        x1 = 2.0 * Math.random() - 1.0;
-        x2 = 2.0 * Math.random() - 1.0;
+        x1 = 2.0 * random() - 1.0;
+        x2 = 2.0 * random() - 1.0;
         w = x1 * x1 + x2 * x2;
       } while (w >= 1.0);
 
@@ -47,7 +58,7 @@ const randomWithCoef = function randomWithCoef(values) {
     }
   }
 
-  return pool[Math.floor(Math.random() * pool.length)];
+  return pool[Math.floor(random() * pool.length)];
 };
 
 const nRandomFromArray = function nRandomFromArray(arr, n) {
@@ -56,7 +67,7 @@ const nRandomFromArray = function nRandomFromArray(arr, n) {
   let pool = JSON.parse(JSON.stringify(arr));
 
   while (result.length < max) {
-    const index = Math.floor(Math.random() * pool.length);
+    const index = Math.floor(random() * pool.length);
     const elt = pool[index];
 
     pool = [...pool.slice(0, index), ...pool.slice(index + 1)];
@@ -67,6 +78,8 @@ const nRandomFromArray = function nRandomFromArray(arr, n) {
 };
 
 module.exports = {
+  random,
+  setSeed,
   gaussian,
   randomWithCoef,
   nRandomFromArray,
