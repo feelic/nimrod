@@ -48,17 +48,13 @@ const gaussian = function gaussian(mean, stdev, integer = true) {
 };
 
 const randomWithCoef = function randomWithCoef(values) {
-  const pool = [];
+  const pool = Object.keys(values).reduce((prev, value) => {
+    const { weight } = values[value];
 
-  for (let i = 0; i < values.length; i += 1) {
-    const value = values[i];
+    return prev.concat(new Array(weight).fill(value));
+  }, []);
 
-    for (let j = 0; j < value.coef; j += 1) {
-      pool.push(value.value);
-    }
-  }
-
-  return pool[Math.floor(random() * pool.length)];
+  return pool[Math.floor(Math.random() * pool.length)];
 };
 
 const nRandomFromArray = function nRandomFromArray(arr, n) {

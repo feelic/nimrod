@@ -1,9 +1,8 @@
 /* eslint-disable no-console */
 const french = require('../languages/french');
 const generateLanguage = require('../src/generate-language/index');
-const makeSyllable = require('../src/use-language/make-syllable');
 const transliterate = require('../src/use-language/transliterate');
-
+const makeWord = require('../src/use-language/make-word');
 const { setSeed } = require('../src/util/random');
 
 const seed = process.argv[2] || 'coucou';
@@ -15,11 +14,10 @@ const conLang = generateLanguage();
 
 // console.log(JSON.stringify(conLang, null, 2));
 
-const lang = conLang;
+const lang = french;
 
-const syllable = makeSyllable(lang.syllableRules, 'initial');
-const syllable2 = makeSyllable(lang.syllableRules);
-const word = syllable + syllable2;
+const words = [2, 3, 4, 1, 2].map(len => makeWord(lang, len));
+const translit = words.map(w => transliterate(lang, w));
 
-console.log(word);
-console.log(transliterate(lang.transliterationMap, word));
+console.log(words.join(', '));
+console.log(translit.join(', '));
