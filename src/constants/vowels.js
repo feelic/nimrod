@@ -21,17 +21,17 @@ module.exports = {
     translit: 'a',
     neighbours: ['ä', 'ɑ̃'],
   },
-  ä: {
-    symbol: 'ä',
-    traits: {
-      height: 'open',
-      backness: 'central',
-      roundedness: false,
-      nasalization: false,
-    },
-    translit: 'a',
-    neighbours: ['a', 'ã', 'ɑ', 'ɐ', 'ɒ̈'],
-  },
+  // ä: {
+  //   symbol: 'ä',
+  //   traits: {
+  //     height: 'open',
+  //     backness: 'central',
+  //     roundedness: false,
+  //     nasalization: false,
+  //   },
+  //   translit: 'a',
+  //   neighbours: ['a', 'ã', 'ɑ', 'ɐ', 'ɒ̈'],
+  // },
   ɑ: {
     symbol: 'ɑ',
     traits: {
@@ -54,17 +54,17 @@ module.exports = {
     translit: 'a',
     neighbours: ['ã', 'ɑ'],
   },
-  ɐ: {
-    symbol: 'ɐ',
-    traits: {
-      height: 'near-open',
-      backness: 'central',
-      roundedness: false,
-      nasalization: false,
-    },
-    translit: 'a',
-    neighbours: ['ä', 'æ', 'ɜ', 'ɞ'],
-  },
+  // ɐ: {
+  //   symbol: 'ɐ',
+  //   traits: {
+  //     height: 'near-open',
+  //     backness: 'central',
+  //     roundedness: false,
+  //     nasalization: false,
+  //   },
+  //   translit: 'a',
+  //   neighbours: ['ä', 'æ', 'ɜ', 'ɞ'],
+  // },
   ɒ: {
     symbol: 'ɒ',
     traits: {
@@ -76,17 +76,17 @@ module.exports = {
     translit: 'å',
     neighbours: ['ɑ', 'ɒ̈'],
   },
-  ɒ̈: {
-    symbol: 'ɒ̈',
-    traits: {
-      height: 'open',
-      backness: 'central',
-      roundedness: true,
-      nasalization: false,
-    },
-    translit: 'å',
-    neighbours: ['ä', 'ɒ', 'ɞ', 'ɶ'],
-  },
+  // ɒ̈: {
+  //   symbol: 'ɒ̈',
+  //   traits: {
+  //     height: 'open',
+  //     backness: 'central',
+  //     roundedness: true,
+  //     nasalization: false,
+  //   },
+  //   translit: 'å',
+  //   neighbours: ['ä', 'ɒ', 'ɞ', 'ɶ'],
+  // },
   æ: {
     symbol: 'æ',
     traits: {
@@ -131,17 +131,17 @@ module.exports = {
     translit: 'é',
     neighbours: ['e̞', 'ɘ', 'ø'],
   },
-  e̞: {
-    symbol: 'e̞',
-    traits: {
-      height: 'mid',
-      backness: 'front',
-      roundedness: false,
-      nasalization: false,
-    },
-    translit: 'é',
-    neighbours: ['e', 'ə', 'ɛ', 'ø̞'],
-  },
+  // e̞: {
+  //   symbol: 'e̞',
+  //   traits: {
+  //     height: 'mid',
+  //     backness: 'front',
+  //     roundedness: false,
+  //     nasalization: false,
+  //   },
+  //   translit: 'é',
+  //   neighbours: ['e', 'ə', 'ɛ', 'ø̞'],
+  // },
   ə: {
     symbol: 'ə',
     traits: {
@@ -197,17 +197,17 @@ module.exports = {
     translit: 'e',
     neighbours: ['ɐ', 'ə', 'ɛ', 'ʌ'],
   },
-  ɞ: {
-    symbol: 'ɞ',
-    traits: {
-      height: 'near-open',
-      backness: 'central',
-      roundedness: true,
-      nasalization: false,
-    },
-    translit: 'e',
-    neighbours: ['ɐ', 'ɒ̈'],
-  },
+  // ɞ: {
+  //   symbol: 'ɞ',
+  //   traits: {
+  //     height: 'near-open',
+  //     backness: 'central',
+  //     roundedness: true,
+  //     nasalization: false,
+  //   },
+  //   translit: 'e',
+  //   neighbours: ['ɐ', 'ɒ̈'],
+  // },
   i: {
     symbol: 'i',
     traits: {
@@ -219,39 +219,39 @@ module.exports = {
     translit: 'i',
     neighbours: ['ɨ', 'y'],
   },
-  ɨ: {
-    symbol: 'ɨ',
-    traits: {
-      height: 'close',
-      backness: 'central',
-      roundedness: false,
-      nasalization: false,
-    },
-    translit: 'y',
-    neighbours: ['i', 'ɪ̈', 'ɯ', 'ʉ'],
-  },
-  ɪ̈: {
-    symbol: 'ɪ̈',
-    traits: {
-      height: 'near-close',
-      backness: 'central',
-      roundedness: false,
-      nasalization: false,
-    },
-    translit: 'u',
-    neighbours: ['ɘ', 'ɨ', 'ʊ̈'],
-  },
-  ɯ: {
-    symbol: 'ɯ',
-    traits: {
-      height: 'close',
-      backness: 'back',
-      roundedness: false,
-      nasalization: false,
-    },
-    translit: 'u',
-    neighbours: ['ɨ', 'u'],
-  },
+  // ɨ: {
+  //   symbol: 'ɨ',
+  //   traits: {
+  //     height: 'close',
+  //     backness: 'central',
+  //     roundedness: false,
+  //     nasalization: false,
+  //   },
+  //   translit: 'y',
+  //   neighbours: ['i', 'ɪ̈', 'ɯ', 'ʉ'],
+  // },
+  // ɪ̈: {
+  //   symbol: 'ɪ̈',
+  //   traits: {
+  //     height: 'near-close',
+  //     backness: 'central',
+  //     roundedness: false,
+  //     nasalization: false,
+  //   },
+  //   translit: 'u',
+  //   neighbours: ['ɘ', 'ɨ', 'ʊ̈'],
+  // },
+  // ɯ: {
+  //   symbol: 'ɯ',
+  //   traits: {
+  //     height: 'close',
+  //     backness: 'back',
+  //     roundedness: false,
+  //     nasalization: false,
+  //   },
+  //   translit: 'u',
+  //   neighbours: ['ɨ', 'u'],
+  // },
   o: {
     symbol: 'o',
     traits: {
@@ -263,17 +263,17 @@ module.exports = {
     translit: 'o',
     neighbours: ['o̞', 'ɵ', 'ɤ'],
   },
-  o̞: {
-    symbol: 'o̞',
-    traits: {
-      height: 'mid',
-      backness: 'back',
-      roundedness: true,
-      nasalization: false,
-    },
-    translit: 'o',
-    neighbours: ['ɔ', 'o', 'õ', 'ɵ̞', 'ɤ̞'],
-  },
+  // o̞: {
+  //   symbol: 'o̞',
+  //   traits: {
+  //     height: 'mid',
+  //     backness: 'back',
+  //     roundedness: true,
+  //     nasalization: false,
+  //   },
+  //   translit: 'o',
+  //   neighbours: ['ɔ', 'o', 'õ', 'ɵ̞', 'ɤ̞'],
+  // },
   õ: {
     symbol: 'õ',
     traits: {
@@ -296,39 +296,39 @@ module.exports = {
     translit: 'e',
     neighbours: ['e', 'ø̞', 'ɵ'],
   },
-  ø̞: {
-    symbol: 'ø̞',
-    traits: {
-      height: 'mid',
-      backness: 'front',
-      roundedness: true,
-      nasalization: false,
-    },
-    translit: 'e',
-    neighbours: ['e̞', 'ø', 'ɵ̞', 'œ'],
-  },
-  ɵ: {
-    symbol: 'ɵ',
-    traits: {
-      height: 'close-mid',
-      backness: 'central',
-      roundedness: true,
-      nasalization: false,
-    },
-    translit: 'e',
-    neighbours: ['ɘ', 'o', 'ø', 'ɵ̞', 'ʊ̈'],
-  },
-  ɵ̞: {
-    symbol: 'ɵ̞',
-    traits: {
-      height: 'mid',
-      backness: 'central',
-      roundedness: true,
-      nasalization: false,
-    },
-    translit: 'e',
-    neighbours: ['ə', 'o̞', 'ø̞', 'ɵ'],
-  },
+  // ø̞: {
+  //   symbol: 'ø̞',
+  //   traits: {
+  //     height: 'mid',
+  //     backness: 'front',
+  //     roundedness: true,
+  //     nasalization: false,
+  //   },
+  //   translit: 'e',
+  //   neighbours: ['e̞', 'ø', 'ɵ̞', 'œ'],
+  // },
+  // ɵ: {
+  //   symbol: 'ɵ',
+  //   traits: {
+  //     height: 'close-mid',
+  //     backness: 'central',
+  //     roundedness: true,
+  //     nasalization: false,
+  //   },
+  //   translit: 'e',
+  //   neighbours: ['ɘ', 'o', 'ø', 'ɵ̞', 'ʊ̈'],
+  // },
+  // ɵ̞: {
+  //   symbol: 'ɵ̞',
+  //   traits: {
+  //     height: 'mid',
+  //     backness: 'central',
+  //     roundedness: true,
+  //     nasalization: false,
+  //   },
+  //   translit: 'e',
+  //   neighbours: ['ə', 'o̞', 'ø̞', 'ɵ'],
+  // },
   œ: {
     symbol: 'œ',
     traits: {
@@ -370,31 +370,31 @@ module.exports = {
       roundedness: true,
       nasalization: false,
     },
-    translit: 'e',
+    translit: 'u',
     neighbours: ['ɯ', 'ʉ'],
   },
-  ʉ: {
-    symbol: 'ʉ',
-    traits: {
-      height: 'close',
-      backness: 'central',
-      roundedness: true,
-      nasalization: false,
-    },
-    translit: 'u',
-    neighbours: ['ɨ', 'u', 'ʊ̈', 'y'],
-  },
-  ʊ̈: {
-    symbol: 'ʊ̈',
-    traits: {
-      height: 'near-close',
-      backness: 'central',
-      roundedness: true,
-      nasalization: false,
-    },
-    translit: 'e',
-    neighbours: ['ɪ̈', 'ɵ', 'ʉ'],
-  },
+  // ʉ: {
+  //   symbol: 'ʉ',
+  //   traits: {
+  //     height: 'close',
+  //     backness: 'central',
+  //     roundedness: true,
+  //     nasalization: false,
+  //   },
+  //   translit: 'u',
+  //   neighbours: ['ɨ', 'u', 'ʊ̈', 'y'],
+  // },
+  // ʊ̈: {
+  //   symbol: 'ʊ̈',
+  //   traits: {
+  //     height: 'near-close',
+  //     backness: 'central',
+  //     roundedness: true,
+  //     nasalization: false,
+  //   },
+  //   translit: 'e',
+  //   neighbours: ['ɪ̈', 'ɵ', 'ʉ'],
+  // },
   ʌ: {
     symbol: 'ʌ',
     traits: {
@@ -417,26 +417,26 @@ module.exports = {
     translit: 'y',
     neighbours: ['i', 'ʉ'],
   },
-  ɤ: {
-    symbol: 'ɤ',
-    traits: {
-      height: 'close-mid',
-      backness: 'back',
-      roundedness: false,
-      nasalization: false,
-    },
-    translit: 'e',
-    neighbours: ['ɘ', 'o', 'ɤ̞'],
-  },
-  ɤ̞: {
-    symbol: 'ɤ̞',
-    traits: {
-      height: 'mid',
-      backness: 'back',
-      roundedness: false,
-      nasalization: false,
-    },
-    translit: 'e',
-    neighbours: ['ə', 'o̞', 'ʌ', 'ɤ'],
-  },
+  // ɤ: {
+  //   symbol: 'ɤ',
+  //   traits: {
+  //     height: 'close-mid',
+  //     backness: 'back',
+  //     roundedness: false,
+  //     nasalization: false,
+  //   },
+  //   translit: 'e',
+  //   neighbours: ['ɘ', 'o', 'ɤ̞'],
+  // },
+  // ɤ̞: {
+  //   symbol: 'ɤ̞',
+  //   traits: {
+  //     height: 'mid',
+  //     backness: 'back',
+  //     roundedness: false,
+  //     nasalization: false,
+  //   },
+  //   translit: 'e',
+  //   neighbours: ['ə', 'o̞', 'ʌ', 'ɤ'],
+  // },
 };

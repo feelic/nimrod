@@ -8,24 +8,24 @@ module.exports = {
     },
     translit: 'b',
   },
-  ɓ: {
-    symbol: 'ɓ',
-    traits: {
-      place: 'bilabial',
-      manner: 'implosive',
-      voicing: true,
-    },
-    translit: 'b`',
-  },
-  ʙ: {
-    symbol: 'ʙ',
-    traits: {
-      place: 'bilabial',
-      manner: 'trill',
-      voicing: true,
-    },
-    translit: 'b',
-  },
+  // ɓ: {
+  //   symbol: 'ɓ',
+  //   traits: {
+  //     place: 'bilabial',
+  //     manner: 'implosive',
+  //     voicing: true,
+  //   },
+  //   translit: 'b`',
+  // },
+  // ʙ: {
+  //   symbol: 'ʙ',
+  //   traits: {
+  //     place: 'bilabial',
+  //     manner: 'trill',
+  //     voicing: true,
+  //   },
+  //   translit: 'b',
+  // },
   β: {
     symbol: 'β',
     traits: {
@@ -44,24 +44,24 @@ module.exports = {
     },
     translit: 'k',
   },
-  ɕ: {
-    symbol: 'ɕ',
-    traits: {
-      place: 'alveolopalatal',
-      manner: 'fricative',
-      voicing: false,
-    },
-    translit: 'sh',
-  },
-  ç: {
-    symbol: 'ç',
-    traits: {
-      place: 'palatal',
-      manner: 'fricative',
-      voicing: false,
-    },
-    translit: 'sh',
-  },
+  // ɕ: {
+  //   symbol: 'ɕ',
+  //   traits: {
+  //     place: 'alveolopalatal',
+  //     manner: 'fricative',
+  //     voicing: false,
+  //   },
+  //   translit: 'sh',
+  // },
+  // ç: {
+  //   symbol: 'ç',
+  //   traits: {
+  //     place: 'palatal',
+  //     manner: 'fricative',
+  //     voicing: false,
+  //   },
+  //   translit: 'sh',
+  // },
   d: {
     symbol: 'd',
     traits: {
@@ -71,24 +71,24 @@ module.exports = {
     },
     translit: 'd',
   },
-  ɗ: {
-    symbol: 'ɗ',
-    traits: {
-      place: 'alveolar',
-      manner: 'implosive',
-      voicing: true,
-    },
-    translit: 'd',
-  },
-  ɖ: {
-    symbol: 'ɖ',
-    traits: {
-      place: 'retroflex',
-      manner: 'plosive',
-      voicing: true,
-    },
-    translit: 'd',
-  },
+  // ɗ: {
+  //   symbol: 'ɗ',
+  //   traits: {
+  //     place: 'alveolar',
+  //     manner: 'implosive',
+  //     voicing: true,
+  //   },
+  //   translit: 'd',
+  // },
+  // ɖ: {
+  //   symbol: 'ɖ',
+  //   traits: {
+  //     place: 'retroflex',
+  //     manner: 'plosive',
+  //     voicing: true,
+  //   },
+  //   translit: 'd',
+  // },
   ð: {
     symbol: 'ð',
     traits: {
@@ -116,24 +116,24 @@ module.exports = {
     },
     translit: 'f',
   },
-  ɟ: {
-    symbol: 'ɟ',
-    traits: {
-      place: 'palatal',
-      manner: 'plosive',
-      voicing: true,
-    },
-    translit: 'g',
-  },
-  ʄ: {
-    symbol: 'ʄ',
-    traits: {
-      place: 'palatal',
-      manner: 'implosive',
-      voicing: true,
-    },
-    translit: 'g',
-  },
+  // ɟ: {
+  //   symbol: 'ɟ',
+  //   traits: {
+  //     place: 'palatal',
+  //     manner: 'plosive',
+  //     voicing: true,
+  //   },
+  //   translit: 'g',
+  // },
+  // ʄ: {
+  //   symbol: 'ʄ',
+  //   traits: {
+  //     place: 'palatal',
+  //     manner: 'implosive',
+  //     voicing: true,
+  //   },
+  //   translit: 'g',
+  // },
   g: {
     symbol: 'g',
     traits: {
@@ -143,33 +143,33 @@ module.exports = {
     },
     translit: 'g',
   },
-  ɠ: {
-    symbol: 'ɠ',
-    traits: {
-      place: 'velar',
-      manner: 'implosive',
-      voicing: true,
-    },
-    translit: 'g',
-  },
-  ɢ: {
-    symbol: 'ɢ',
-    traits: {
-      place: 'uvular',
-      manner: 'plosive',
-      voicing: true,
-    },
-    translit: 'g',
-  },
-  ʛ: {
-    symbol: 'ʛ',
-    traits: {
-      place: 'uvular',
-      manner: 'implosive',
-      voicing: true,
-    },
-    translit: 'g',
-  },
+  // ɠ: {
+  //   symbol: 'ɠ',
+  //   traits: {
+  //     place: 'velar',
+  //     manner: 'implosive',
+  //     voicing: true,
+  //   },
+  //   translit: 'g',
+  // },
+  // ɢ: {
+  //   symbol: 'ɢ',
+  //   traits: {
+  //     place: 'uvular',
+  //     manner: 'plosive',
+  //     voicing: true,
+  //   },
+  //   translit: 'g',
+  // },
+  // ʛ: {
+  //   symbol: 'ʛ',
+  //   traits: {
+  //     place: 'uvular',
+  //     manner: 'implosive',
+  //     voicing: true,
+  //   },
+  //   translit: 'g',
+  // },
   h: {
     symbol: 'h',
     traits: {
@@ -179,42 +179,42 @@ module.exports = {
     },
     translit: 'h',
   },
-  ɦ: {
-    symbol: 'ɦ',
-    traits: {
-      place: 'glottal',
-      manner: 'fricative',
-      voicing: true,
-    },
-    translit: 'h',
-  },
-  ħ: {
-    symbol: 'ħ',
-    traits: {
-      place: 'pharyngeal',
-      manner: 'fricative',
-      voicing: false,
-    },
-    translit: 'kh',
-  },
-  ɥ: {
-    symbol: 'ɥ',
-    traits: {
-      place: 'labial-palatal',
-      manner: 'approximant',
-      voicing: true,
-    },
-    translit: 'u',
-  },
-  ʜ: {
-    symbol: 'ʜ',
-    traits: {
-      place: 'pharyngeal',
-      manner: 'fricative',
-      voicing: false,
-    },
-    translit: 'kh',
-  },
+  // ɦ: {
+  //   symbol: 'ɦ',
+  //   traits: {
+  //     place: 'glottal',
+  //     manner: 'fricative',
+  //     voicing: true,
+  //   },
+  //   translit: 'h',
+  // },
+  // ħ: {
+  //   symbol: 'ħ',
+  //   traits: {
+  //     place: 'pharyngeal',
+  //     manner: 'fricative',
+  //     voicing: false,
+  //   },
+  //   translit: 'kh',
+  // },
+  // ɥ: {
+  //   symbol: 'ɥ',
+  //   traits: {
+  //     place: 'labial-palatal',
+  //     manner: 'approximant',
+  //     voicing: true,
+  //   },
+  //   translit: 'u',
+  // },
+  // ʜ: {
+  //   symbol: 'ʜ',
+  //   traits: {
+  //     place: 'pharyngeal',
+  //     manner: 'fricative',
+  //     voicing: false,
+  //   },
+  //   translit: 'kh',
+  // },
   j: {
     symbol: 'j',
     traits: {
@@ -224,15 +224,15 @@ module.exports = {
     },
     translit: 'j',
   },
-  ʝ: {
-    symbol: 'ʝ',
-    traits: {
-      place: 'palatal',
-      manner: 'fricative',
-      voicing: true,
-    },
-    translit: 'j',
-  },
+  // ʝ: {
+  //   symbol: 'ʝ',
+  //   traits: {
+  //     place: 'palatal',
+  //     manner: 'fricative',
+  //     voicing: true,
+  //   },
+  //   translit: 'j',
+  // },
   k: {
     symbol: 'k',
     traits: {
@@ -251,24 +251,24 @@ module.exports = {
     },
     translit: 'l',
   },
-  ɭ: {
-    symbol: 'ɭ',
-    traits: {
-      place: 'retroflex',
-      manner: 'lateral',
-      voicing: true,
-    },
-    translit: 'l',
-  },
-  ɬ: {
-    symbol: 'ɬ',
-    traits: {
-      place: 'alveolar',
-      manner: 'lateral-fricative',
-      voicing: false,
-    },
-    translit: 'll',
-  },
+  // ɭ: {
+  //   symbol: 'ɭ',
+  //   traits: {
+  //     place: 'retroflex',
+  //     manner: 'lateral',
+  //     voicing: true,
+  //   },
+  //   translit: 'l',
+  // },
+  // ɬ: {
+  //   symbol: 'ɬ',
+  //   traits: {
+  //     place: 'alveolar',
+  //     manner: 'lateral-fricative',
+  //     voicing: false,
+  //   },
+  //   translit: 'll',
+  // },
   ɮ: {
     symbol: 'ɮ',
     traits: {
@@ -278,15 +278,15 @@ module.exports = {
     },
     translit: 'll',
   },
-  ʟ: {
-    symbol: 'ʟ',
-    traits: {
-      place: 'velar',
-      manner: 'lateral',
-      voicing: true,
-    },
-    translit: 'l',
-  },
+  // ʟ: {
+  //   symbol: 'ʟ',
+  //   traits: {
+  //     place: 'velar',
+  //     manner: 'lateral',
+  //     voicing: true,
+  //   },
+  //   translit: 'l',
+  // },
   m: {
     symbol: 'm',
     traits: {
@@ -296,24 +296,24 @@ module.exports = {
     },
     translit: 'm',
   },
-  ɱ: {
-    symbol: 'ɱ',
-    traits: {
-      place: 'labiodental',
-      manner: 'nasal',
-      voicing: true,
-    },
-    translit: 'm',
-  },
-  ɰ: {
-    symbol: 'ɰ',
-    traits: {
-      place: 'velar',
-      manner: 'approximant',
-      voicing: true,
-    },
-    translit: 'w',
-  },
+  // ɱ: {
+  //   symbol: 'ɱ',
+  //   traits: {
+  //     place: 'labiodental',
+  //     manner: 'nasal',
+  //     voicing: true,
+  //   },
+  //   translit: 'm',
+  // },
+  // ɰ: {
+  //   symbol: 'ɰ',
+  //   traits: {
+  //     place: 'velar',
+  //     manner: 'approximant',
+  //     voicing: true,
+  //   },
+  //   translit: 'w',
+  // },
   n: {
     symbol: 'n',
     traits: {
@@ -332,15 +332,15 @@ module.exports = {
     },
     translit: 'n',
   },
-  ɳ: {
-    symbol: 'ɳ',
-    traits: {
-      place: 'retroflex',
-      manner: 'nasal',
-      voicing: true,
-    },
-    translit: 'n',
-  },
+  // ɳ: {
+  //   symbol: 'ɳ',
+  //   traits: {
+  //     place: 'retroflex',
+  //     manner: 'nasal',
+  //     voicing: true,
+  //   },
+  //   translit: 'n',
+  // },
   ɲ: {
     symbol: 'ɲ',
     traits: {
@@ -350,24 +350,24 @@ module.exports = {
     },
     translit: 'n',
   },
-  ɴ: {
-    symbol: 'ɴ',
-    traits: {
-      place: 'uvular',
-      manner: 'nasal',
-      voicing: true,
-    },
-    translit: 'n',
-  },
-  ɸ: {
-    symbol: 'ɸ',
-    traits: {
-      place: 'bilabial',
-      manner: 'fricative',
-      voicing: false,
-    },
-    translit: 'f',
-  },
+  // ɴ: {
+  //   symbol: 'ɴ',
+  //   traits: {
+  //     place: 'uvular',
+  //     manner: 'nasal',
+  //     voicing: true,
+  //   },
+  //   translit: 'n',
+  // },
+  // ɸ: {
+  //   symbol: 'ɸ',
+  //   traits: {
+  //     place: 'bilabial',
+  //     manner: 'fricative',
+  //     voicing: false,
+  //   },
+  //   translit: 'f',
+  // },
   θ: {
     symbol: 'θ',
     traits: {
@@ -413,33 +413,33 @@ module.exports = {
     },
     translit: 'r',
   },
-  ɺ: {
-    symbol: 'ɺ',
-    traits: {
-      place: 'alveolar',
-      manner: 'lateral-flap',
-      voicing: true,
-    },
-    translit: 'r',
-  },
-  ɾ: {
-    symbol: 'ɾ',
-    traits: {
-      place: 'alveolar',
-      manner: 'flap',
-      voicing: true,
-    },
-    translit: 'r',
-  },
-  ɻ: {
-    symbol: 'ɻ',
-    traits: {
-      place: 'retroflex',
-      manner: 'approximant',
-      voicing: true,
-    },
-    translit: 'r',
-  },
+  // ɺ: {
+  //   symbol: 'ɺ',
+  //   traits: {
+  //     place: 'alveolar',
+  //     manner: 'lateral-flap',
+  //     voicing: true,
+  //   },
+  //   translit: 'r',
+  // },
+  // ɾ: {
+  //   symbol: 'ɾ',
+  //   traits: {
+  //     place: 'alveolar',
+  //     manner: 'flap',
+  //     voicing: true,
+  //   },
+  //   translit: 'r',
+  // },
+  // ɻ: {
+  //   symbol: 'ɻ',
+  //   traits: {
+  //     place: 'retroflex',
+  //     manner: 'approximant',
+  //     voicing: true,
+  //   },
+  //   translit: 'r',
+  // },
   ʀ: {
     symbol: 'ʀ',
     traits: {
@@ -458,15 +458,15 @@ module.exports = {
     },
     translit: 'r',
   },
-  ɽ: {
-    symbol: 'ɽ',
-    traits: {
-      place: 'retroflex',
-      manner: 'flap',
-      voicing: true,
-    },
-    translit: 'r',
-  },
+  // ɽ: {
+  //   symbol: 'ɽ',
+  //   traits: {
+  //     place: 'retroflex',
+  //     manner: 'flap',
+  //     voicing: true,
+  //   },
+  //   translit: 'r',
+  // },
   s: {
     symbol: 's',
     traits: {
@@ -476,15 +476,15 @@ module.exports = {
     },
     translit: 's',
   },
-  ʂ: {
-    symbol: 'ʂ',
-    traits: {
-      place: 'retroflex',
-      manner: 'fricative',
-      voicing: false,
-    },
-    translit: 'sh',
-  },
+  // ʂ: {
+  //   symbol: 'ʂ',
+  //   traits: {
+  //     place: 'retroflex',
+  //     manner: 'fricative',
+  //     voicing: false,
+  //   },
+  //   translit: 'sh',
+  // },
   ʃ: {
     symbol: 'ʃ',
     traits: {
@@ -503,15 +503,15 @@ module.exports = {
     },
     translit: 't',
   },
-  ʈ: {
-    symbol: 'ʈ',
-    traits: {
-      place: 'retroflex',
-      manner: 'plosive',
-      voicing: false,
-    },
-    translit: 't',
-  },
+  // ʈ: {
+  //   symbol: 'ʈ',
+  //   traits: {
+  //     place: 'retroflex',
+  //     manner: 'plosive',
+  //     voicing: false,
+  //   },
+  //   translit: 't',
+  // },
   ʧ: {
     symbol: 'ʧ',
     traits: {
@@ -521,15 +521,15 @@ module.exports = {
     },
     translit: 'ch',
   },
-  ʋ: {
-    symbol: 'ʋ',
-    traits: {
-      place: 'labiodental',
-      manner: 'approximant',
-      voicing: true,
-    },
-    translit: 'w',
-  },
+  // ʋ: {
+  //   symbol: 'ʋ',
+  //   traits: {
+  //     place: 'labiodental',
+  //     manner: 'approximant',
+  //     voicing: true,
+  //   },
+  //   translit: 'w',
+  // },
   v: {
     symbol: 'v',
     traits: {
@@ -539,15 +539,15 @@ module.exports = {
     },
     translit: 'v',
   },
-  ⱱ: {
-    symbol: 'ⱱ',
-    traits: {
-      place: 'labiodental',
-      manner: 'flap',
-      voicing: true,
-    },
-    translit: 'v',
-  },
+  // ⱱ: {
+  //   symbol: 'ⱱ',
+  //   traits: {
+  //     place: 'labiodental',
+  //     manner: 'flap',
+  //     voicing: true,
+  //   },
+  //   translit: 'v',
+  // },
   ɣ: {
     symbol: 'ɣ',
     traits: {
@@ -566,15 +566,15 @@ module.exports = {
     },
     translit: 'w',
   },
-  ʍ: {
-    symbol: 'ʍ',
-    traits: {
-      place: 'labial-velar',
-      manner: 'fricative',
-      voicing: false,
-    },
-    translit: 'h',
-  },
+  // ʍ: {
+  //   symbol: 'ʍ',
+  //   traits: {
+  //     place: 'labial-velar',
+  //     manner: 'fricative',
+  //     voicing: false,
+  //   },
+  //   translit: 'h',
+  // },
   x: {
     symbol: 'x',
     traits: {
@@ -593,15 +593,15 @@ module.exports = {
     },
     translit: 'kh',
   },
-  ʎ: {
-    symbol: 'ʎ',
-    traits: {
-      place: 'palatal',
-      manner: 'lateral-approximant',
-      voicing: true,
-    },
-    translit: 'l',
-  },
+  // ʎ: {
+  //   symbol: 'ʎ',
+  //   traits: {
+  //     place: 'palatal',
+  //     manner: 'lateral-approximant',
+  //     voicing: true,
+  //   },
+  //   translit: 'l',
+  // },
   z: {
     symbol: 'z',
     traits: {
@@ -611,24 +611,24 @@ module.exports = {
     },
     translit: 'z',
   },
-  ʑ: {
-    symbol: 'ʑ',
-    traits: {
-      place: 'alveolopalatal',
-      manner: 'fricative',
-      voicing: true,
-    },
-    translit: 'z',
-  },
-  ʐ: {
-    symbol: 'ʐ',
-    traits: {
-      place: 'retroflex',
-      manner: 'fricative',
-      voicing: true,
-    },
-    translit: 'j',
-  },
+  // ʑ: {
+  //   symbol: 'ʑ',
+  //   traits: {
+  //     place: 'alveolopalatal',
+  //     manner: 'fricative',
+  //     voicing: true,
+  //   },
+  //   translit: 'z',
+  // },
+  // ʐ: {
+  //   symbol: 'ʐ',
+  //   traits: {
+  //     place: 'retroflex',
+  //     manner: 'fricative',
+  //     voicing: true,
+  //   },
+  //   translit: 'j',
+  // },
   ʒ: {
     symbol: 'ʒ',
     traits: {
@@ -656,22 +656,22 @@ module.exports = {
     },
     translit: "'",
   },
-  ʕ: {
-    symbol: 'ʕ',
-    traits: {
-      place: 'pharyngeal',
-      manner: 'fricative',
-      voicing: true,
-    },
-    translit: 'h',
-  },
-  ʢ: {
-    symbol: 'ʢ',
-    traits: {
-      place: 'pharyngeal',
-      manner: 'fricative',
-      voicing: true,
-    },
-    translit: 'h',
-  },
+  // ʕ: {
+  //   symbol: 'ʕ',
+  //   traits: {
+  //     place: 'pharyngeal',
+  //     manner: 'fricative',
+  //     voicing: true,
+  //   },
+  //   translit: 'h',
+  // },
+  // ʢ: {
+  //   symbol: 'ʢ',
+  //   traits: {
+  //     place: 'pharyngeal',
+  //     manner: 'fricative',
+  //     voicing: true,
+  //   },
+  //   translit: 'h',
+  // },
 };
