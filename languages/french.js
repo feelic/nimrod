@@ -66,28 +66,4 @@ module.exports = {
     gl: { weight: 1, translit: 'gl' },
     ks: { weight: 1, translit: 'ks' },
   },
-  syllableRules: {
-    initial: {
-      onset: {
-        existence: () => true && Math.round(Math.random()) + 0.3,
-      },
-      nucleus: {
-        diphthong: () => false,
-      },
-      coda: {
-        existence: () => true && Math.round(Math.random() * Math.random()),
-      },
-    },
-    standard: {
-      onset: {
-        existence: () => true && Math.round(Math.random()) + 0.3,
-      },
-      nucleus: {
-        diphthong: () => false,
-      },
-      coda: {
-        existence: () => true && Math.round(Math.random() * Math.random()),
-      },
-    },
-  },
 };

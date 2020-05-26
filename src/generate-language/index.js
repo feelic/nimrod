@@ -1,8 +1,5 @@
-const { gaussian, nRandomFromArray, random } = require('../util/random');
-const { bindNumber } = require('../util/index');
-const { makePhonemeSet, makeClusters, makeDiphthongs } = require('./make-phonology');
-const makePhonotactics = require('./make-phonotactics');
-const makeTransliterationMap = require('./make-transliteration-map');
+const { random } = require('../util/random');
+const { makePhonemeSet } = require('./make-phonology');
 
 module.exports = () => {
   const vowels = makePhonemeSet('vowels');
@@ -18,15 +15,13 @@ module.exports = () => {
   // const diphthongsAllowed = false;
   // const diphthongs = [];
   // const letterFrequency
-  const syllableRules = makePhonotactics(vowels, consonants);
-  const transliterationMap = makeTransliterationMap(vowels, consonants);
+  // const syllableRules = makePhonotactics(vowels, consonants);
+  // const transliterationMap = makeTransliterationMap(vowels, consonants);
   const maxMorphemeLength = Math.ceil(random() * 2);
 
   return {
     vowels,
     consonants,
-    syllableRules,
-    transliterationMap,
     maxMorphemeLength,
   };
 };

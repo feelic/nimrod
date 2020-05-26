@@ -73,10 +73,20 @@ const nRandomFromArray = function nRandomFromArray(arr, n) {
   return result;
 };
 
+const randomFromArray = function randomFromArray(arr) {
+  return arr[Math.floor(random() * arr.length)];
+};
+
+const shuffleArray = function shuffleArray(arr) {
+  return arr.sort(() => Boolean(Math.round(random())));
+};
+
 module.exports = {
   random,
   setSeed,
   gaussian,
   randomWithCoef,
   nRandomFromArray,
+  randomFromArray,
+  shuffleArray,
 };
